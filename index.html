@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlapLabs</title>
+    <title>FlapLabs - Coming Soon</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="./assets/FlapLabs-title.png" />
     <style>
         /* Custom styles for the coming soon page */
         body {
@@ -17,9 +18,9 @@
             padding-top: 150px;
         }
 
-        .logo {
-            font-size: 40px;
-            font-weight: bold;
+        .logo img {
+            max-width: 150px;
+            /* Adjust the size as needed */
             margin-bottom: 20px;
         }
 
@@ -27,14 +28,22 @@
             font-size: 24px;
             margin-bottom: 30px;
         }
+
+        img {
+            border-radius: 10%;
+        }
     </style>
 </head>
 
 <body>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12 coming-soon-container">
-                <h1 class="logo">FlapLabs</h1>
+                <!-- Add FlapLabs logo here -->
+                <div class="logo">
+                    <img src="./assets//FlapLabs.png" alt="FlapLabs Logo">
+                </div>
                 <p class="countdown">We're coming soon...</p>
                 <div id="countdown"></div>
             </div>
