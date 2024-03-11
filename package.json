@@ -1,6 +1,6 @@
 {
   "name": "flaplabs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -17,6 +17,7 @@
     "next": "14.1.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-social-icons": "^6.14.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
   },

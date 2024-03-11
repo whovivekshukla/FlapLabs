@@ -15,16 +15,15 @@ export function HomePage() {
               tools to entertainment experiences, we're dedicated to innovation.
             </p>
             <div className="mx-auto max-w-[700px]">
-              <Button variant="outline" className="mx-4">
-                <Link href="/privacy-policy" className="text-white">
+              <Link href="/privacy-policy">
+                <Button variant="outline" className="mx-4">
                   Privacy Policy
-                </Link>
-              </Button>
-              <Button variant="outline" className="mx-4">
-                <Link href="/projects" className="text-white">
-                  Projects
-                </Link>
-              </Button>
+                </Button>
+              </Link>
+
+              <Link href="/projects">
+                <Button className="mx-4">Projects</Button>
+              </Link>
             </div>
           </div>
         </div>
