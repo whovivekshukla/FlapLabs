@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const FooterComponent = () => {
   return (
@@ -20,9 +20,15 @@ const FooterComponent = () => {
           >
             Privacy
           </Link>
+          <Link
+            className="text-xs hover:underline underline-offset-4"
+            href="/refund"
+          >
+            Refund
+          </Link>
         </nav>
       </footer>
     </div>
   );
-}
-export default FooterComponent
+};
+export default FooterComponent;
