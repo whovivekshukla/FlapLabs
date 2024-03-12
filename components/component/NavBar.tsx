@@ -24,7 +24,7 @@ export function Navbar() {
           className="text-sm font-medium hover:underline underline-offset-4"
           href="/contact"
         >
-          Contact Us
+          Contact
         </Link>
       </nav>
     </header>
